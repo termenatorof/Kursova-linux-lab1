@@ -16,3 +16,11 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+int Calculator::Mul (double a, double b)
+{
+    return a - b + 0.5;
+}
+int Calculator::Mul (double a, double b)
+{
+    return a / b + 0.5;
+}
